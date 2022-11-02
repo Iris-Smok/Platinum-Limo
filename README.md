@@ -1,3 +1,7 @@
+<p align="center">
+<img src="assets/logo/color-logo-no-bg.png" width="100%" height="100%">
+</p>
+
 # About
 This is a static site project built using HTML, CSS, JS & Bootstrap. I created a website for 'Platinum Line Limo' which is designed to sell private transport services. 
 I started this site as a single page website, but during planning I decided to make separate pages for contact forums and car specification. This enables easy navigation and a better overview of the site itself.
