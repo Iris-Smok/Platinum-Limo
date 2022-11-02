@@ -62,4 +62,42 @@ I started this site as a single page website, but during planning I decided to m
 - Contains contact form so that clients can easily get in touch if they have certain requirements and questions
 
 
+# Wireframes
+
+## Home Page
+
+<p align="center">
+<img src="assets/wireframes/home-page.png" width="700" height="100%">
+</p>
+
+## Home Page - Mobile 
+
+<p align="center">
+<img src="assets/wireframes/home-page-mobile.png" width="500" height="100%">
+</p>
+
+## Availability
+
+<p align="center">
+<img src="assets/wireframes/availability.png" width="700" height="100%">
+</p>
+
+## Contact 
+
+<p align="center">
+<img src="assets/wireframes/contact-page.png" width="700" height="100%">
+</p>
+
+## Car Spec
+
+<p align="center">
+<img src="assets/wireframes/car-spec.png" width="700" height="100%">
+</p>
+
+## Thank You Note
+
+<p align="center">
+<img src="assets/wireframes/thank-you-note.png" width="500" height="100%">
+</p>
+
 
