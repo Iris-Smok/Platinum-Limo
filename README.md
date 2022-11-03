@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/logo/color-logo-with-bg.png" width="100%" height="100%">
+<img src="assets/readme-docs/logo/color-logo-with-bg.png" width="100%" height="100%">
 </p>
 
 # About
