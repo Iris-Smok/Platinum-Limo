@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/readme-docs/logo/color-logo-with-bg.png" width="100%" height="100%">
+<img src="assets/readme-docs/logo/color-logo-with-bg.svg" width="100%" height="100%">
 </p>
 
 # About
@@ -71,37 +71,37 @@ I started this site as a single page website, but during planning I decided to m
 ## Home Page
 
 <p align="center">
-<img src="assets/wireframes/home-page.png" width="700" height="100%">
+<img src="assets/readme-docs/wireframes/home-page.png" width="700" height="100%">
 </p>
 
 ## Home Page - Mobile 
 
 <p align="center">
-<img src="assets/wireframes/home-page-mobile.png" width="500" height="100%">
+<img src="assets/readme-docs/wireframes/home-page-mobile.png" width="500" height="100%">
 </p>
 
 ## Availability
 
 <p align="center">
-<img src="assets/wireframes/availability.png" width="700" height="100%">
+<img src="assets/readme-docs/wireframes/availability.png" width="700" height="100%">
 </p>
 
 ## Contact 
 
 <p align="center">
-<img src="assets/wireframes/contact-page.png" width="700" height="100%">
+<img src="assets/readme-docs/wireframes/contact-page.png" width="700" height="100%">
 </p>
 
 ## Car Spec
 
 <p align="center">
-<img src="assets/wireframes/car-spec.png" width="700" height="100%">
+<img src="assets/readme-docs/wireframes/car-spec.png" width="700" height="100%">
 </p>
 
 ## Thank You Note
 
 <p align="center">
-<img src="assets/wireframes/thank-you-note.png" width="500" height="100%">
+<img src="assets/readme-docs/wireframes/thank-you-note.png" width="500" height="100%">
 </p>
 
 
