@@ -236,13 +236,11 @@ sup {
   top: -0.5em;
 }
 
-a {
-  color: #ffc800;
-  text-decoration: underline;
-}
+
 a:hover {
-  color: #cca000;
+  color: rgb(189, 186, 186) !important;
 }
+
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
@@ -3931,20 +3929,37 @@ textarea.form-control-lg {
   list-style: none;
 }
 
+
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #ffc800;
+  color: #fff;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
+
+.nav-item:after{
+  content: "";
+  display: block;
+  height: 1px;
+  z-index: 2;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+
+.nav-item:hover:after{
+  background-color: #6c757d;
+
+}
+
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #cca000;
+  color: #6c757d;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -3991,7 +4006,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #ffc800;
+  background-color: #6c757d;
 }
 
 .nav-fill > .nav-link,
@@ -11358,8 +11373,9 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #6c757d;
 }
+
 
 @media (min-width: 992px) {
   #mainNav {
@@ -11411,14 +11427,14 @@ header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
   line-height: 1.5rem;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-family: "Lato", sans-serif;
 }
 header.masthead .masthead-heading {
   font-size: 3rem;
   font-weight: 700;
   line-height: 3.25rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   font-family: "Lato", sans-serif;
   
 }
@@ -11448,20 +11464,20 @@ header.masthead .btn:hover{
     font-size: 1.7rem;
     font-style: italic;
     line-height: 2.25rem;
-    margin-bottom: 4rem;
+    margin-bottom: 10px;
   }
   header.masthead .masthead-heading {
     font-size: 3.5rem;
     font-weight: 400;
     line-height: 4.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 4rem;
   }
 }
 
 @media (min-width: 1200px){
   header.masthead{
-    padding-top: 23rem;
-    padding-bottom: 23rem;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
   }
 
 }
