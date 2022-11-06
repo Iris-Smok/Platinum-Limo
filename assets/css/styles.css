@@ -77,6 +77,20 @@
   }
 }
 
+@media(max-width: 768px){
+
+  .content-to-hide-sm{
+    display: none;
+  }
+
+  .footer-link-policy a{
+    display: block;
+    margin-right: 0px!important;
+  }
+
+}
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
