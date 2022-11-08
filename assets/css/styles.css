@@ -87,6 +87,10 @@
   text-align: center;
 }
 
+footer{
+  text-align: left;
+}
+
 @media (min-width:1200px){
 
   .introduction-text{
@@ -102,6 +106,13 @@
     display: none;
   }
 
+  footer{
+    text-align: center;
+  }
+
+  .contactus-footer{
+    align-content: center!important;
+  }
   .footer-link-policy a{
     display: block;
     margin-right: 0px!important;
@@ -183,7 +194,17 @@
   color: #000;
 }
 
+/* Footer */
+.logo-footer{
+  max-width: 23rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.logo-footer img{
+  width: 100%;
+  height: auto;
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
