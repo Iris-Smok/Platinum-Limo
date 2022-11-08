@@ -178,7 +178,10 @@
   color:#fbc634 
 }
 
-
+/* Services & Testimonials bg */
+.carousel-item p, h5{
+  color: #000;
+}
 
 
 body {
@@ -11618,7 +11621,6 @@ header.masthead .btn:hover,
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #fff;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
