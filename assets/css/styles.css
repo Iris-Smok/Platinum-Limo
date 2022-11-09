@@ -11551,6 +11551,20 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+
+
+
+header.availability {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../img/header-availability.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -11583,12 +11597,27 @@ header.masthead .btn:hover,
 
 }
 
+@media (max-width: 400px){
+  header.masthead .masthead-subheading {
+    font-size: 1.2rem;
+  }
+
+  header.masthead .masthead-heading {
+    font-size: 2.2rem;
+  }
+}
+
 
 
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 10rem;
     padding-bottom: 10rem;
+  }
+
+  header.availability {
+    padding-top: 17rem;
+    padding-bottom: 17rem;
   }
   header.masthead .masthead-subheading {
     font-size: 1.7rem;
@@ -11609,6 +11638,12 @@ header.masthead .btn:hover,
     padding-top: 20rem;
     padding-bottom: 20rem;
   }
+
+  header.availability{
+    padding-top: 25rem;
+    padding-bottom: 25rem;
+  }
+
 
 }
 #portfolio .portfolio-item {
@@ -11646,7 +11681,6 @@ header.masthead .btn:hover,
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
