@@ -103,12 +103,12 @@
                             <div class="field d-inline-block">
                                 <!-- Date -->
                                 <label for="date" class="mt-3">Event Date & Time*</label>
-                                <input type="date" class="form-control" id="date" required>
+                                <input type="date" class="form-control" name="date" id="date" required>
                             </div>
 
                             <div class="field d-inline-block">
                                 <!-- Time -->
-                                <input type="time" class="form-control ml-2" id="time" required>
+                                <input type="time" class="form-control ml-2" name="time" id="time" required>
                             </div>
 
                             <div class="field">
@@ -149,6 +149,10 @@
                                     Let us know if you have any wants or desires.</small>
                                 <textarea class="form-control" id="requirements" rows="5"
                                     name="requirements"></textarea>
+                            </div>
+
+                            <div class="field">
+                                <div data-netlify-recaptcha="true"></div>
                             </div>
 
                             <button type="submit" class="btn btn-dark text-uppercase mt-5">Request Availability</button>
