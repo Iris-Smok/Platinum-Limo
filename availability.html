@@ -25,6 +25,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
     </script>
+
 </head>
 
 <body id="page-top">
@@ -57,74 +58,107 @@
         </div>
     </header>
 
-<section class="page-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div>
-                    <h2 class="text-uppercase mb-5">Request Availability</h2>
+    <section class="page-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div>
+                        <h2 class="text-uppercase mb-5">Request Availability</h2>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="text-left"> Client Details</div>
+                    <hr>
+                    <form action="POST" data-netlify="true">
+                        <div class="form-group ml-4">
+                            <div class="field">
+                                <!-- Full Name -->
+                                <label for="fullName" class="mt-3">Full Name*</label>
+                                <input type="text" class="form-control" id="fullName" name="full_name" required>
+                            </div>
+
+                            <div class="field">
+
+                                <!-- Company Name -->
+                                <label for="companyName" class="mt-4">Company Name</label>
+                                <input type="text" class="form-control" id="companyName" name="company_name">
+                            </div>
+
+                            <div class="field">
+                                <!-- Phone -->
+                                <label for="phone" class="mt-4">Phone*</label>
+                                <input type="tel" class="form-control" id="companyName" name="phone" required>
+                            </div>
+
+                            <div class="field">
+                                <!-- Email -->
+                                <label for="exampleInputEmail1" class="mt-4">Email address*</label>
+                                <input type="email" class="form-control mb-5" id="exampleInputEmail1" name="email"
+                                    aria-describedby="emailHelp" required>
+                            </div>
+
+                            <div class="text-left mt-5"> Event Details</div>
+                            <hr>
+
+                            <div class="field d-inline-block">
+                                <!-- Date -->
+                                <label for="date" class="mt-3">Event Date & Time*</label>
+                                <input type="date" class="form-control" id="date" required>
+                            </div>
+
+                            <div class="field d-inline-block">
+                                <!-- Time -->
+                                <input type="time" class="form-control ml-2" id="time" required>
+                            </div>
+
+                            <div class="field">
+                                <!-- Collection Address -->
+                                <label for="collection" class="mt-4">Collection Address*</label>
+                                <input type="text" class="form-control" id="collection" name="collection_address"
+                                    required>
+                            </div>
+
+                            <div class="field">
+                                <!-- Drop-off Address -->
+                                <label for="drop-off" class="mt-4">Drop-off Address*</label>
+                                <input type="text" class="form-control" id="drop-off" name="drop_off_address" required>
+                            </div>
+
+                            <div class="field">
+                                <!-- Flight Number -->
+                                <label for="flight" class="mt-4">Flight Number</label>
+                                <input type="text" class="form-control" id="flight" name="flight_number">
+                            </div>
+
+                            <div class="field">
+                                <!-- Select Car -->
+                                <label for="select" class="mt-4">Select Car*</label>
+                                <select class="custom-select mb-3" id="select" name="car" required>
+                                    <option value="" selected>---</option>
+                                    <option value="Mercedes-E">Mercedes Benz E Class</option>
+                                    <option value="Mercedes-S">Mercedes Benz S Class</option>
+                                    <option value="Mercedes-V">Mercedes Benz V Class</option>
+                                </select>
+                            </div>
+
+                            <div class="field">
+                                <!-- Requirements -->
+                                <label for="requirements" class="mt-4">Request or Requirements</label>
+                                <small class="text-muted d-block mb-2">We provide a tailored service for all our
+                                    clients.<br>
+                                    Let us know if you have any wants or desires.</small>
+                                <textarea class="form-control" id="requirements" rows="5"
+                                    name="requirements"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-dark text-uppercase mt-5">Request Availability</button>
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div class="col-12">
-                <div class="text-left"> Client Details</div>
-                <hr>
-                <form action="#" method="POST">
-                    <div class="form-group ml-4">
-                        <!-- Full Name -->
-                        <label for="fullName" class="mt-3">Full Name*</label>
-                        <input type="text" class="form-control" id="fullName" required>
-
-                        <!-- Company Name -->
-                        <label for="companyName" class="mt-4">Company Name</label>
-                        <input type="text" class="form-control" id="companyName">
-
-                        <!-- Phone -->
-                        <label for="phone" class="mt-4">Phone*</label>
-                        <input type="tel" class="form-control" id="companyName" required>
-
-                      <label for="exampleInputEmail1" class="mt-4">Email address*</label>
-                      <input type="email" class="form-control mb-5" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-
-                      <div class="text-left mt-5"> Event Details</div>
-                      <hr>
-
-                      <label for="date" class="mt-3">Event Date*</label>
-                      <input type="date" class="form-control" id="date" required>
-
-                      <label for="collection" class="mt-4">Collection Address*</label>
-                      <input type="text" class="form-control" id="collection" required>
-
-                      <label for="drop-off" class="mt-4">Drop-off Address*</label>
-                      <input type="text" class="form-control" id="drop-off" required>
-
-                      <label for="flight" class="mt-4">Flight Number</label>
-                      <input type="text" class="form-control" id="flight">
-
-                      <label for="select" class="mt-4">Select Car*</label>
-                      <select class="custom-select mb-3" id="select" required>
-                        <option value="" selected>---</option>
-                        <option value="Mercedes-E">Mercedes Benz E Class</option>
-                        <option value="Mercedes-S">Mercedes Benz S Class</option>
-                        <option value="Mercedes-V">Mercedes Benz V Class</option>
-                      </select>
-
-                      <label for="requirements" class="mt-4">Request or Requirements</label>
-                      <small class="text-muted d-block mb-2">We provide a tailored service for all our clients.<br>
-                        Let us know if you have any wants or desires.</small>
-                        <textarea class="form-control" id="requirements" rows="5"></textarea>
-                      <button type="submit" class="btn btn-dark text-uppercase mt-5">Request Availability</button>
-                    </div>
-                  </form>
-            </div>
         </div>
-    </div>
 
-</section>
-
-
-
-
-
+    </section>
 
     <!-- Footer-->
     <footer class="footer py-4">
@@ -208,7 +242,6 @@
             </div>
         </div>
     </footer>
-
 
 
 
