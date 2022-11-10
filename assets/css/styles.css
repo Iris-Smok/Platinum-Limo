@@ -11554,24 +11554,12 @@ header.masthead {
   color: #fff;
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
 
 
-
-header.availability {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("../img/header-availability.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-}
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
