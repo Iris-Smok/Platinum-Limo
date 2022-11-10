@@ -194,6 +194,13 @@ footer{
   color: #000;
 }
 
+/* Thank you page */
+
+.fa-circle-check{
+  font-size: 6rem;
+}
+
+
 /* Footer */
 .logo-footer{
   max-width: 23rem;
@@ -11919,3 +11926,4 @@ header.masthead .btn:hover,
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
