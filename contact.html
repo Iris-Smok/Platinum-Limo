@@ -8,7 +8,12 @@
     <meta name="author" content="" />
     <title>Platinum Line Limo - Chauffeur service</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -63,13 +68,16 @@
             <div class="row">
                 <div class="col-12">
                     <div>
-                        <h2 class="text-uppercase mb-5">Request Availability</h2>
+                        <h2 class="text-uppercase mb-5">Contact Us</h2>
+                        <hr>
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="text-left"> Client Details</div>
-                    <hr>
-                    <form action="POST" data-netlify="true">
+                    <div class="text-left"> Please complete this form for a customized quotation or any other query.</div>
+                    
+                    <form method="post" name="contact-form" action="thankyou.html" data-netlify="true">
+                        <input type="hidden" name="subject" 
+                        value="Contact Form" />
                         <div class="form-group ml-4">
                             <div class="field">
                                 <!-- Full Name -->
