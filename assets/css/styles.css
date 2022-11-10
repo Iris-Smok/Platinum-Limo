@@ -11508,7 +11508,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #6c757d;
+  color: #d1b700;
 }
 
 
@@ -11552,7 +11552,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("https://res.cloudinary.com/irissmok/image/upload/v1668123223/Platinum%20Line%20images/header-availability_upmzr9.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
