@@ -17,6 +17,9 @@ h1, h2,h3 {
   font-family: 'Crimson Text', sans-serif;
 }
 
+.bg-grey{
+  background-color: #aaaaaa;
+}
 
 @media (prefers-reduced-motion:no-preference) {
   :root {
@@ -29,6 +32,7 @@ h1, h2,h3 {
   margin-right: 10%;
   text-align: center
 }
+
 
 footer {
   text-align: left
@@ -130,7 +134,7 @@ h5 {
 }
 
 .logo-footer {
-  max-width: 23rem;
+  max-width: 14rem;
   margin-left: auto;
   margin-right: auto
 }
@@ -922,7 +926,7 @@ p {
 }
 
 #mainNav .navbar-brand img {
-  height: 2.5rem
+  height: 3.5rem
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -952,7 +956,7 @@ p {
   }
 
   #mainNav .navbar-brand img {
-    height: 4.5rem;
+    height: 5.5rem;
     transition: height .3s ease-in-out
   }
 
@@ -968,7 +972,7 @@ p {
 
   #mainNav.navbar-shrink .navbar-brand img,
   #mainNav.navbar-shrink .navbar-brand svg {
-    height: 4rem
+    height: 4.2rem
   }
 
   #mainNav .navbar-nav .nav-item {
@@ -992,6 +996,14 @@ header.masthead {
   background-size: cover
 }
 
+@media(max-width: 768px){
+  header.masthead{
+    background-position: center right;
+
+  }
+
+}
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -1005,7 +1017,7 @@ header.masthead .masthead-heading {
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 4rem;
-  font-family: Lato, sans-serif
+  font-family: 'Crimson Text', sans-serif
 }
 
 .modal-body a,
