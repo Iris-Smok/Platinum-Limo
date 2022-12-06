@@ -545,6 +545,13 @@
      background-position: center center;
      background-size: cover 
 }
+
+@supports (-webkit-touch-callout: none) {
+    header.masthead{
+      background-attachment: scroll;
+    }
+  }
+  
  header.masthead .masthead-subheading {
      font-size: 1.5rem;
      font-style: italic;
