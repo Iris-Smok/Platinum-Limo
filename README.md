@@ -1,17 +1,15 @@
-<p align="center">
-<img src="assets/readme-docs/logo/color-logo-with-bg.svg" width="100%" height="100%">
-</p>
+
 
 # About
-This is a static site project built using HTML, CSS, JS & Bootstrap. I created a website for 'Platinum Line Limo' which is designed to sell private transport services. 
+This is a static site project built using HTML, CSS, JS & Bootstrap. I created a website for 'Platinum Limo' which is designed to sell private transport services. 
 I started this site as a single page website, but during planning I decided to make separate pages for contact forums and car specification. This enables easy navigation and a better overview of the site itself.
 
 # User Stories
 
-- As a user I can see an interesting home page so that I can understand what kind of services Platinum Line Limo provides
+- As a user I can see an interesting home page so that I can understand what kind of services Platinum Limo provides
 - As a user I can easily navigate through the site so that I can view desired content
 - As a user I can easily find a navigation bar and footer so that I can see what content there is on the website
-- Aa a user I can easily see the vehicles list so that I can see what kind of transport vehicles the Platinum Line Limo has to offer
+- Aa a user I can easily see the vehicles list so that I can see what kind of transport vehicles the Platinum Limo has to offer
 - As a user, I can see how many people and suitcases a certain car can accommodate
 - As a user I can see vehicles specification so that I can easily see what every vehicles has to offer
 - As a user I can see reviews so that I can see the experience of other client
@@ -26,15 +24,15 @@ I started this site as a single page website, but during planning I decided to m
 # Features
 
 - An easy and simple navigation throught the website
-- List of services that Platinum Line Limo provides
-- List of vehicles that Platinum Line Limo has to offer
+- List of services that Platinum Limo provides
+- List of vehicles that Platinum Limo has to offer
 - Car specifications for each vehicles so that user can see what each vehicle has to offer
 - Easily visible testimonials of other clients
 - Contact form so that clients can easily get in touch if they have certain requirements and questions
 - Availability form so that clients can book desired vehicle
 - Thank you message when user submits the form so that the user can be sure the form has been submitted
-- Easily visible Platinum Line Limo contact infromation
-- Social links in the footer of each page so user can follow the Platinum Line Limo via social networks and be up to date with the latest information
+- Easily visible Platinum Limo contact infromation
+- Social links in the footer of each page so user can follow the Platinum Limo via social networks and be up to date with the latest information
 
 
 # Structure
@@ -52,12 +50,12 @@ I started this site as a single page website, but during planning I decided to m
 ## Home Page
 
 - Image - appears at the top of the page, located below the navbar section,
-- Platinum Line Limo - located below the image, allows users to get more informations about the Platinum Line Limo
-- Features - located below introduction section, allows users to see what kind of features Platinum Line Limo has to offer
-- Services - located below features section, allows users to see list of services Platinum Line Limo has to offer
-- The Platinum Line Limo Fleet - allows users to see list of vehicles the Platinum Line Limo has to offer, they also can see  how many people and suitcases a certain vehicle can accommodate
+- Platinum Limo - located below the image, allows users to get more informations about the Platinum Limo
+- Features - located below introduction section, allows users to see what kind of features Platinum Limo has to offer
+- Services - located below features section, allows users to see list of services Platinum Limo has to offer
+- The Platinum Limo Fleet - allows users to see list of vehicles the Platinum Limo has to offer, they also can see  how many people and suitcases a certain vehicle can accommodate
 - Car specification - when the user clicks on the desired car in the Fleet section, the link takes them to the car specification page
-- Testimonials - allow potential client to see the reviews from current/previous clients, which will help them trust the services offered by the Platinum Line Limo
+- Testimonials - allow potential client to see the reviews from current/previous clients, which will help them trust the services offered by the Platinum Limo
 
 ## Availability 
 - Contains form where user can request desired vehicle
@@ -105,3 +103,10 @@ I started this site as a single page website, but during planning I decided to m
 </p>
 
 
+# Features to implement
+
+- Car spec page
+- FAQ page
+
+# Bugs
+- Services links on other pages are not working
